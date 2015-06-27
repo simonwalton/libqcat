@@ -1,0 +1,6 @@
+*.vim
+*.log
+*.gch
+*.swp
+*.swo
+*.o

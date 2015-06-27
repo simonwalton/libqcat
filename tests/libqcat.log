@@ -1,0 +1,16 @@
+[]: QCATDataSource::executeSQL running SQL:
+
+[]: 	select * from information_schema.columns where table_name = 'facas_simple_test'
+
+[]: Set default bin of type string for attribute a and isPassthrough: true
+
+[]: Set default bin of type number for attribute b and isPassthrough: false
+
+[]: Set default bin of type string for attribute c and isPassthrough: true
+
+[]: Set default bin of type string for attribute c and isPassthrough: true
+
+[]: QCATDataSource::executeSQL running SQL:
+
+[]: 	SELECT id,  a , CAST(b / 1 AS int)  , md5(CAST(( a , CAST(b / 1 AS int) ) as text))  as hash  FROM facas_simple_test WHERE   c  =  'y'  
+
