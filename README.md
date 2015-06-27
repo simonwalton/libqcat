@@ -1,3 +1,5 @@
+<img src="./images/qcats_logo.png"  width="290" height="100">
+
 # libqcat
 A C++ library implementing our information-theoretic anomaly detection technique, QCATs. 
 
